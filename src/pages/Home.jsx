@@ -1,7 +1,10 @@
-import "../index.css";
 
-function App() {
-  return <div className="flex min-h-screen bg-blue-200">hello</div>;
+function Home() {
+  return( 
+  <div className="p-4 flex min-h-screen ">
+    Home
+  </div>
+  )
 }
 
-export default App;
+export default Home;
