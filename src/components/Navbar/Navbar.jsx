@@ -41,7 +41,7 @@ function Navbar() {
       {/*MOBILE DROP DOWN MENU*/}
       {isOpen && (
         <div className="absolute top-14 right-0 left-0 bg-dark shadow-lg md:hidden z-50 ">
-          <div className="flex flex-col items-center py-4 space-y-6 text-Orange">
+          <div className="flex flex-col items-center py-4 space-y-6 text-Orange " onClick={() => setIsOpen(false)}>
           <Link to="/" className="text-Orange">Home</Link>
           <Link to="/content/movies" className="text-Orange hover:text-orange-300">
             Movies
