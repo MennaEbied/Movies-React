@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import {Menu, X, Search } from "lucide-react";
+import {Menu, X } from "lucide-react";
 import {useState} from "react";
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,10 +15,16 @@ function Navbar() {
       </div>
       {/* DESKTOP NAVIGATION */}
       <div className="hidden md:flex mx-auto justify-between items-center gap-8 text-lg text-Orange cursor-pointer font-semibold">
-        <Link to="/" className="hover:text-orange-300" >Home</Link>
-        <Link to="/movies" className="hover:text-orange-300 transition-colors">Movies</Link >
-        <Link className="hover:text-orange-200 transition-colors">TV Shows</Link>
-        <Link className="hover:text-orange-200 transition-colors">Animations</Link>
+      <Link to="/" className=" hover:text-orange-300">Home</Link>
+          <Link to="/content/movies" className=" hover:text-orange-300">
+            Movies
+          </Link>
+          <Link to="/content/tv" className=" hover:text-orange-300">
+            TV Shows
+          </Link>
+          <Link to="/content/animatedMovies" className=" hover:text-orange-300">
+            Animations
+          </Link>
       </div>
       {/* MOBILE NAVIGATION */}
       <button
@@ -36,10 +42,16 @@ function Navbar() {
       {isOpen && (
         <div className="absolute top-24 right-0 left-0 bg-dark shadow-lg md:hidden z-50 border-t border-amber-100">
           <div className="flex flex-col items-center py-4 space-y-6 text-Orange">
-            <Link to="/">Home</Link>
-            <Link to="/movies">Movies</Link>
-            <Link to="/">TV Shows</Link>
-            <Link to="/">Animation</Link>
+          <Link to="/" className="text-Orange">Home</Link>
+          <Link to="/content/movies" className="text-Orange hover:text-orange-300">
+            Movies
+          </Link>
+          <Link to="/content/tv" className="text-Orange hover:text-orange-300">
+            TV Shows
+          </Link>
+          <Link to="/content/animatedMovies" className="text-Orange hover:text-orange-300">
+            Animations
+          </Link>
             </div>
             </div>
       )}
