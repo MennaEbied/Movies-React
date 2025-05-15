@@ -42,7 +42,7 @@ function ContentDetails() {
   const extraInfo = isTV ? `Number of Seasons: ${item.number_of_seasons || "N/A"}` : `Runtime: ${item.runtime || "N/A"} minutes`;
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white px-4 py-8">
+    <div className="min-h-screen bg-gray-900 text-white px-4 py-8 pt-20 md:pt-24">
       <div className="container mx-auto">
         <Link
           to={`/content/${type}`}

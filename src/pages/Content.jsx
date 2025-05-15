@@ -46,7 +46,7 @@ function Content() {
   }
 
   return (
-    <div className="min-h-screen mx-auto px-4 py-8 bg-gray-900">
+    <div className="min-h-screen mx-auto px-4 py-8 bg-gray-900 pt-20 md:pt-24">
       <h1 className="text-3xl font-bold text-Orange mb-6">Explore Content</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {content.length === 0 ? (

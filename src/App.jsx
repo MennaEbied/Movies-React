@@ -14,7 +14,7 @@ const router = createBrowserRouter([
       { path: "content/:type", element: <Content /> },
       { path: "content/:type/:id", element: <ContentDetails /> },
       { path: "movies", element: <Navigate to="/content/movies" replace /> },
-      { path: "tvshows", element: <Navigate to="/content/tv" replace /> }, // Fix 404
+      { path: "tvshows", element: <Navigate to="/content/tv" replace /> }, 
       { path: "animations", element: <Navigate to="/content/animatedMovies" replace /> },
   
     ],

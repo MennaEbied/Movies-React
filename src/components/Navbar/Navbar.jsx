@@ -8,21 +8,21 @@ function Navbar() {
       setIsOpen(!isOpen);
     };
   return (
-    <div className="sticky top-0 bg-dark  py-4 px-6 flex justify-between items-center w-full">
+    <div className="fixed top-0 left-0 z-40 bg-dark  py-4 px-6 flex justify-between items-center w-full">
       {/* LOGO SECTION */}
       <div className="flex items-center">
         <p className="font-bold text-Orange">TVmov</p>
       </div>
       {/* DESKTOP NAVIGATION */}
       <div className="hidden md:flex mx-auto justify-between items-center gap-8 text-lg text-Orange cursor-pointer font-semibold">
-      <Link to="/" className=" hover:text-orange-300">Home</Link>
-          <Link to="/content/movies" className=" hover:text-orange-300">
+      <Link to="/" className=" hover:text-orange-300 transition-colors">Home</Link>
+          <Link to="/content/movies" className=" hover:text-orange-300 transition-colors">
             Movies
           </Link>
-          <Link to="/content/tv" className=" hover:text-orange-300">
+          <Link to="/content/tv" className=" hover:text-orange-300 transition-colors ">
             TV Shows
           </Link>
-          <Link to="/content/animatedMovies" className=" hover:text-orange-300">
+          <Link to="/content/animatedMovies" className=" hover:text-orange-300 transition-colors">
             Animations
           </Link>
       </div>
@@ -40,7 +40,7 @@ function Navbar() {
       </button>
       {/*MOBILE DROP DOWN MENU*/}
       {isOpen && (
-        <div className="absolute top-24 right-0 left-0 bg-dark shadow-lg md:hidden z-50 border-t border-amber-100">
+        <div className="absolute top-14 right-0 left-0 bg-dark shadow-lg md:hidden z-50 ">
           <div className="flex flex-col items-center py-4 space-y-6 text-Orange">
           <Link to="/" className="text-Orange">Home</Link>
           <Link to="/content/movies" className="text-Orange hover:text-orange-300">
