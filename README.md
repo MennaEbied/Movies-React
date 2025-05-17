@@ -30,13 +30,13 @@ A responsive movie discovery web app built with **React**, **Tailwind CSS**, and
    ```bash
    git clone https://github.com/MennaEbied/Movies-React.git
    cd Movies-React
-2. **Install dependencies
+2.  **Install dependencies
    ``` npm install ```
-3. **Set up TMDb API key
-  - Get a free API key from TMDb
+3.  **Set up TMDb API key
+    -Get a free API key from TMDb
    -Create a .env file in the root directory:
      VITE_TMDB_API_KEY=your_api_key_here
-4.**Run locally
+4.  **Run locally
    ```npm run dev```
-5.**Build for production
+5.  **Build for production
    ```npm run build```
