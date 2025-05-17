@@ -1,12 +1,27 @@
-# React + Vite
+# 🎬  Discover Trending Movies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie discovery web app built with **React**, **Tailwind CSS**, and powered by **The Movie DB (TMDb) API**. Browse trending movies and view details like ratings, genres, and release dates.
 
-Currently, two official plugins are available:
+![MovieHub Screenshot](./src/assets/screenshot.png) *(Add a screenshot later)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+👉 **Deployment URL:** (https://movies-react-3qj.pages.dev/)  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- 🎥 Trending/popular movies list
+- 📖 View movie details (synopsis, rating, cast)
+- 📱 Fully responsive (mobile, tablet, desktop)
+
+
+## 🛠 Technologies Used
+- **Frontend**: React.js
+- **Styling**: Tailwind CSS
+- **API**: [The Movie DB (TMDb)](https://www.themoviedb.org/)
+- **Deployment**:CloudFlare
+
+## 🚀 Setup & Installation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/moviehub.git
+   cd moviehub
