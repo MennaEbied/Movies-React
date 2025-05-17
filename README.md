@@ -26,5 +26,5 @@ A responsive movie discovery web app built with **React**, **Tailwind CSS**, and
 ## 🚀 Setup & Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/moviehub.git
-   cd moviehub
+   git clone https://github.com/MennaEbied/Movies-React.git
+   cd Movies-React
