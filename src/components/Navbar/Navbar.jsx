@@ -11,7 +11,7 @@ function Navbar() {
     <div className="fixed top-0 left-0 z-40 bg-dark  py-4 px-6 flex justify-between items-center w-full">
       {/* LOGO SECTION */}
       <div className="flex items-center">
-        <p className="font-bold text-Orange">TVmov</p>
+        <p className="font-bold text-Orange">TMDB</p>
       </div>
       {/* DESKTOP NAVIGATION */}
       <div className="hidden md:flex mx-auto justify-between items-center gap-8 text-lg text-Orange cursor-pointer font-semibold">

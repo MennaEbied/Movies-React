@@ -14,9 +14,6 @@ export const fetchContent = async (contentType) => {
     case "animatedMovies":
       url = `${BASE_URL}/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=16&page=1`;
       break;
-    case "animatedTV":
-      url = `${BASE_URL}/discover/tv?api_key=${API_KEY}&language=en-US&with_genres=16&page=1`;
-      break;
     default:
       throw new Error("Invalid content type");
   }
