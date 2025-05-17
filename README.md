@@ -2,7 +2,10 @@
 
 A responsive movie discovery web app built with **React**, **Tailwind CSS**, and powered by **The Movie DB (TMDb) API**. Browse trending movies and view details like ratings, genres, and release dates.
 
-![MovieHub Screenshot](./src/assets/screenshot.png) *(Add a screenshot later)*
+## Screenshot
+![image (1)](https://github.com/user-attachments/assets/129e92ab-e06b-4cf8-afe7-af21090b85be)
+
+
 
 ## 🔗 Live Demo
 👉 **Deployment URL:** (https://movies-react-3qj.pages.dev/)  
