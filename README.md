@@ -1,4 +1,4 @@
-# 🎬  Discover Trending Movies
+![image (2)](https://github.com/user-attachments/assets/62ec5197-1f9d-4d40-99e3-6ae93858d0f3)# 🎬  Discover Trending Movies
 
 A responsive movie discovery web app built with **React**, **Tailwind CSS**, and powered by **The Movie DB (TMDb) API**. Browse trending movies and view details like ratings, genres, and release dates.
 
@@ -30,3 +30,13 @@ A responsive movie discovery web app built with **React**, **Tailwind CSS**, and
    ```bash
    git clone https://github.com/MennaEbied/Movies-React.git
    cd Movies-React
+2. **Install dependencies
+   ``` npm install ```
+3. **Set up TMDb API key
+   Get a free API key from TMDb
+   Create a .env file in the root directory:
+   VITE_TMDB_API_KEY=your_api_key_here
+4.**Run locally
+   ```npm run dev```
+5.**Build for production
+   ```npm run build```
