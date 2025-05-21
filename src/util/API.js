@@ -31,3 +31,18 @@ export const fetchContentDetails = async (contentType, id) => {
   if (!res.ok) throw new Error(`Failed to fetch ${type} details: ${res.status}`);
   return res.json();
 };
+
+export const fetchSearchResults = async (query) => {
+  if (!query) throw new Error("Search query is required");
+  if (!API_KEY) throw new Error("API key is missing");
+  const [movieRes, tvRes] = await Promise.all([
+    fetch(`${BASE_URL}/search/movie?api_key=${API_KEY}&language=en-US&query=${encodeURIComponent(query)}&page=1`),
+    fetch(`${BASE_URL}/search/tv?api_key=${API_KEY}&language=en-US&query=${encodeURIComponent(query)}&page=1`),
+  ]);
+  if (!movieRes.ok || !tvRes.ok) throw new Error(`Failed to fetch search results: ${movieRes.status}, ${tvRes.status}`);
+  const [movies, tvShows] = await Promise.all([movieRes.json(), tvRes.json()]);
+  return {
+    movies: movies.results || [],
+    tvShows: tvShows.results || [],
+  };
+};
