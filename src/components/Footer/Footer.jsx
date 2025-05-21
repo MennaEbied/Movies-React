@@ -3,7 +3,6 @@ function Footer() {
     <div className="bottom-0 py-4 px-6  bg-dark text-Orange grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-7">
       <p className="font-bold">TVmov</p>
       <div className="flex flex-col">
-        <h3 className="font-bold">The Basics</h3>
         <a
           href="https://www.themoviedb.org/about/get-in-touch/"
           className="hover:text-orange-300 transition-colors"
