@@ -16,6 +16,7 @@ A responsive movie discovery web app built with **React**, **Tailwind CSS**, and
 
 ## ✨ Features
 - 🎥 Trending/popular movies list
+- 🔍 Search movies by title
 - 📖 View movie details (synopsis, rating, cast)
 - 📱 Fully responsive (mobile, tablet, desktop)
 
