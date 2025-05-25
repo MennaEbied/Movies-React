@@ -18,7 +18,7 @@ function Card({ item, type = "movies" }) {
               : "https://via.placeholder.com/500x750?text=No+Poster"
           }
           alt={title || "No Title"}
-          className="w-full h-72 object-cover"
+          className="w-full h-full object-cover"
         />
         <div className="p-4">
           <h3 className="text-lg font-semibold">{title || "Unknown"}</h3>
